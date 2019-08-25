@@ -1,0 +1,19 @@
+.NewToDoForm {
+    display: flex;
+    margin: 0 4px;
+    padding: 1.1rem 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ToDoList .NewToDoForm button {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0px 0px 1px;
+    padding: .5rem;
+    transition: box-shadow 1s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    
+}
+
+.ToDoList .NewToDoForm button:hover {
+    box-shadow: inset 0px 0px 3px;
+}
